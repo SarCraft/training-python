@@ -54,7 +54,7 @@ print("Vous avez {}".format(age))
 
 age2 = 40
 ageFinal = age2 + age
-print("La somme des deux age est {}".format(ageFinal))
+print("La somme des deux âge est {}".format(ageFinal))
 
 # 9) Marc fait un peu de shopping. Il achète des chaussures à 70€, un jean à 59€ et un t-shirt à 20€.
 #    Heureusement pour son portefeuille, il bénéficie d'une réduction de 20%.
@@ -69,3 +69,13 @@ prix3 = (20*20)/100
 prix3_0 = 20 - prix3
 prixTotal = prix1_0 + prix2_0 + prix3_0
 print("Le prix total est de {}".format(prixTotal))
+
+# 10) Vous allez créer une mini calculatrice qui permet d'additionner des nombres. Quand le visiteur ouvre le programme vous lui demandez les nombres à additionner avec deux inputs différents, puis vous affichez le résultat à l'écran.
+#     Attention il est possible de rentrer des nombres à virgule !
+
+num1 = float(input("Veuillez saisir le premier numéro à additionner "))
+num2 = float(input("Veuillez saisir le deuxième numéro à additionner "))
+calculTotal = num1 + num2
+print("Le résultat est {}".format(calculTotal))
+
+#
