@@ -78,4 +78,22 @@ num2 = float(input("Veuillez saisir le deuxième numéro à additionner "))
 calculTotal = num1 + num2
 print("Le résultat est {}".format(calculTotal))
 
-#
+# 11) Demander son prénom au visiteur.
+#     Demander son nom au visiteur.
+
+visitor_name = input("Quel est votre nom ?").upper()
+visitorName = input("Quel est votre prénom ?").upper()
+
+#Afficher dans un message la lettre par laquelle son prénom commence et la lettre par laquelle il termine. Ces lettres seront forcément affichées majuscules.
+
+visitor_name_1 = visitor_name[0] + visitor_name[-1]
+print("Voici la première et la dernière lettre de votre nom " + visitor_name_1)
+visitorName_1 =  visitorName[0] + visitorName[-1]
+print("Voici la première et la dernière lettre de votre prénom " + visitorName_1)
+
+print("Vos initiales " + visitor_name_1 + visitorName_1)
+
+age = int(input("Quel est votre âge ?"))
+age = round(age/33)
+
+print("Votre âge diviser par 33 est " + str(age))
