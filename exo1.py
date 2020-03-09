@@ -42,3 +42,16 @@ print(minuscule.upper())
 majuscule = "LE"
 majuscule.lower()
 print(majuscule.lower())
+
+# 7) Réalisez un programme qui demande au visiteur l'année actuelle, son année de naissance puis calcule l'âge du visiteur et l'affiche dans un message à l'écran.
+
+annee = int(input("En quel année somme nous ?"))
+naissance = int(input("Quel est votre année de naissance ?"))
+age = annee - naissance
+print("Vous avez {}".format(age))
+
+# 8) Pour aller plus loin, demandez dans le terminal l'âge de la personne à côté de vous et afficher dans un message le cumul de vos deux âges.
+
+age2 = 40
+ageFinal = age2 + age
+print("La somme des deux age est {}".format(ageFinal))
