@@ -50,8 +50,22 @@ naissance = int(input("Quel est votre année de naissance ?"))
 age = annee - naissance
 print("Vous avez {}".format(age))
 
-# 8) Pour aller plus loin, demandez dans le terminal l'âge de la personne à côté de vous et afficher dans un message le cumul de vos deux âges.
+# Pour aller plus loin, demandez dans le terminal l'âge de la personne à côté de vous et afficher dans un message le cumul de vos deux âges.
 
 age2 = 40
 ageFinal = age2 + age
 print("La somme des deux age est {}".format(ageFinal))
+
+# 9) Marc fait un peu de shopping. Il achète des chaussures à 70€, un jean à 59€ et un t-shirt à 20€.
+#    Heureusement pour son portefeuille, il bénéficie d'une réduction de 20%.
+#    Déclarez chacun des articles achetés dans une variable différente (prix1, prix2, etc.). Déclarez une dernière variable 'total' qui aura pour valeur la somme des achats, et l'afficher dans le terminal.
+
+
+prix1 = (70*20)/100
+prix1_0 = 70 - prix1
+prix2 = (59*20)/100
+prix2_0 = 59 - prix2
+prix3 = (20*20)/100
+prix3_0 = 20 - prix3
+prixTotal = prix1_0 + prix2_0 + prix3_0
+print("Le prix total est de {}".format(prixTotal))
