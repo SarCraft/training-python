@@ -84,7 +84,7 @@ print("Le résultat est {}".format(calculTotal))
 visitor_name = input("Quel est votre nom ?").upper()
 visitorName = input("Quel est votre prénom ?").upper()
 
-#Afficher dans un message la lettre par laquelle son prénom commence et la lettre par laquelle il termine. Ces lettres seront forcément affichées majuscules.
+# Afficher dans un message la lettre par laquelle son prénom commence et la lettre par laquelle il termine. Ces lettres seront forcément affichées majuscules.
 
 visitor_name_1 = visitor_name[0] + visitor_name[-1]
 print("Voici la première et la dernière lettre de votre nom " + visitor_name_1)
@@ -93,7 +93,9 @@ print("Voici la première et la dernière lettre de votre prénom " + visitorNam
 
 print("Vos initiales " + visitor_name_1 + visitorName_1)
 
+# Demander l'âge du visiteur et le diviser par 33.
+
 age = int(input("Quel est votre âge ?"))
-age = round(age/33)
+age = (age/33)
 
 print("Votre âge diviser par 33 est " + str(age))
